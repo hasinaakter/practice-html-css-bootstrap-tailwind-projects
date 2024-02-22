@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+.cover-img img{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.book-details{
+    font-family: "Rubik", sans-serif;
+    margin: auto;
+ 
+
+}
+.book-details h5{
+    padding: 3px;
+    letter-spacing: 4px;
+}
+.book-details h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+
+.header-bg{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgb(246, 127, 127), rgb(239, 160, 160));
+}
+
+
+/*  Section 2  */
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background-size: 150%;
+    position: relative;
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 19vmin;
+  }
+  
+  .content  h1 {
+    font-size: 6vmin;
+    color: whitesmoke;
+  }
+  
+   .content > p {
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    color: #e5e5e5;
+  }
+  
+  .numbers .rect {
+    position: relative;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 50px 0px rgba(246, 44, 44, 0.349);
+  }
+  
+  .numbers {
+    margin-top: -15vmin;
+  }
+  
+ .rect h1 {
+    font-size: 5rem;
+    color: rgb(181, 53, 30);
+  }
+  
+ .rect p {
+    font-family: var(--Patua);
+  }
+
+@media only screen  and (max-width:768px){
+ 
+    .book-details h1{
+        font-size: 40px;
+        font-weight: bold;
+        padding: 8px 0px;
+    }
+    
+    .cover-img img{
+        width: 100%;
+        height: 280px;
+        margin: auto;
+    }
+    
+    .header-bg{
+        height: 100vmax;
+        width: 100%;
+        background:linear-gradient(rgb(246, 127, 127), rgb(239, 160, 160));
+    }
+    
+    
+
+}
